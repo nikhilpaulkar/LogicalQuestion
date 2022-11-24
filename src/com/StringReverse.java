@@ -5,7 +5,7 @@ public class StringReverse {
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-    String a="nimap";
+    String a="coc";
     char ch;
     String rev="";
     
@@ -13,6 +13,16 @@ public class StringReverse {
     {
       ch=a.charAt(i);
       rev=ch+rev;
+       
+    	  
+      }
+    if(a.equals(rev))
+    {
+    	System.out.println("string is palindrome");
+    }
+    else
+    {
+    	System.out.println("string is not palindrome");
     }
     System.out.println("Reverse String ="+rev);
 	}
